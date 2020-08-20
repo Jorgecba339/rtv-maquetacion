@@ -32,7 +32,7 @@ body {
     position: relative;
     background: url('../asset/img/img1.jpg');
     background-size: cover;
-    min-height: 800px;
+    min-height: 700px;
 }
 
 .background-overlay {
@@ -44,22 +44,38 @@ body {
     height: 100%;
 }
 
-.card-title {
-    color: #fff;
-    text-align: center;
+header .encabezado {
+    color: white;
+    font-weight: 900;
 }
 
-.card-text {
-    color: #fff;
-    text-align: center;
+header .lead {
+    color: white;
+    font-weight: 700;
+}
+
+
+/* Acerca de.html */
+
+section .texto {
+    font-size: 24px;
 }
 
 
 /* carousel */
 
-.carousel {
-    height: 320px;
-    width: 450px;
+.carousel1 .container .row .ubicacion .ubi1 {
+    height: 100%;
+    width: 100%;
+}
+
+.carousel2 .container .row .ubicacion2 .ubi2 {
+    height: 100%;
+    width: 100%;
+}
+
+section h4 {
+    font-weight: 900;
 }
 
 
